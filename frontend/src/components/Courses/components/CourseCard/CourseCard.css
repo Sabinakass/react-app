@@ -1,0 +1,32 @@
+/* CourseCard.css */
+.course-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 100px;
+    margin-top: 40px;
+    background-color: #fff;
+    box-shadow: 2px 0px 8px 0px rgba(0, 0, 0, 0.25);
+    border-left: 7px solid rgba(51, 62, 72, 1);
+}
+
+.course-card-info {
+    flex: 1;
+}
+
+.course-card-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.course-details p {
+    margin: 5px 0;
+}
+
+.course-button {
+    margin-top: 20px;
+}

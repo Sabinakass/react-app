@@ -1,0 +1,92 @@
+/* src/components/CreateCourse/CreateCourse.css */
+h2{
+    margin: 20px;
+}
+.create-course-form {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-course-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100px;
+}
+
+textarea.input-error {
+    border: 1px solid red;
+}
+
+.error-text {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.authors-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.available-authors,
+.course-authors {
+    width: 48%;
+}
+
+.available-authors h3,
+.course-authors h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.create-course-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+ 
+} 
